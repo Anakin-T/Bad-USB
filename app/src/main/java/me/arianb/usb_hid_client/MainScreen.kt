@@ -75,7 +75,7 @@ fun MainPage(mainViewModel: MainViewModel = viewModel()) {
 
         ManualInput()
         DirectInput()
-        Touchpad()
+        // Touchpad()
 
         LaunchedEffect(uiState) {
             Timber.d("LAUNCHED EFFECT RUNNING WITH UI STATE = %s", uiState.toString())
